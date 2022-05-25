@@ -1,4 +1,4 @@
-import { AppBar, createTheme } from "@mui/material";
+import { createTheme } from "@mui/material";
 import { red } from "@mui/material/colors";
 
 export const darkTheme = createTheme({
@@ -21,6 +21,15 @@ export const darkTheme = createTheme({
           backgroundColor: '#1C1C24',
         }
       }
-    }
+    },
+    MuiCard: {
+      defaultProps: {
+      },
+      styleOverrides: {
+        root: {
+          backgroundColor: '#1C1C24',
+        }
+      }
+    },
   }
   });

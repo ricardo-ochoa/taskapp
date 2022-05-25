@@ -11,7 +11,7 @@ export const Navbar = () => {
   const { openSideMenu } = useContext(  UIContext )
 
   return (
-    <AppBar position='sticky' className='navbar' >
+    <AppBar position='sticky' className='navbar'>
         <Toolbar>
             <IconButton size='large' edge='start' onClick={ openSideMenu }>
                 <DragHandleTwoToneIcon />
