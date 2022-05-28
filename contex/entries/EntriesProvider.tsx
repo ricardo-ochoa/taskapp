@@ -12,29 +12,7 @@ export interface EntriesState {
 }
 
 const Entries_INITIAL_STATE: EntriesState = {
-   entries: [
-    {
-     _id: uuidv4(),
-     title:"Roronoa Zoro full Haki",
-     description:"@emotion/react > @emotion/babel-plugin@11.9.2",
-     createdAt: Date.now(),
-     status: 'pennding',
-    },
-    {
-      _id: uuidv4(),
-      title:"Hello world!",
-      description:"Hola Mugiwara Luffy",
-      createdAt: Date.now(),
-      status: 'in-progress',
-     },
-     {
-      _id: uuidv4(),
-      title:"NFT Galllery VR",
-      description:"@emotion/react > @emotion/babel-plugin > @babel/plugin-syntax-jsx@7.17.12",
-      createdAt: Date.now(),
-      status: 'done',
-     },
-  ]
+   entries: []
 }
 
 export const EntriesProvider:FC<Props> = ({ children }) => {

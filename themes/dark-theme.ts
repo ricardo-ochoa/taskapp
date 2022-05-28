@@ -31,5 +31,16 @@ export const darkTheme = createTheme({
         }
       }
     },
+    MuiAccordion: {
+      defaultProps: {
+      },
+      styleOverrides: {
+        root: {
+          backgroundColor: '#121212',
+          backgroundImage: 'none',
+          boxShadow: "none"
+        }
+      }
+    },
   }
   });
